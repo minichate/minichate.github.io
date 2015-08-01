@@ -182,6 +182,9 @@ Whereas previous test suite runs used to take hours or more to complete, the new
 
 13 minutes seems pretty good from where we stood several months ago, but is in fact almost **3 times** longer than our goal. Hopefully I'll be able to detail how we're going to optimize the total run time down to our target of 5 minutes in a later post!
 
+<br /><br />
+_I suppose I should also mention that if you're interesting in helping build some world-class testing infrastructure, you might want to [join FreshBooks](http://grnh.se/mwk3s5)!_
+
 [capybara]:    http://jnicklas.github.io/capybara/
 [parallel cucumber]: https://github.com/grosser/parallel_tests
 [jenkins ec2]: https://wiki.jenkins-ci.org/display/JENKINS/Amazon+EC2+Plugin
