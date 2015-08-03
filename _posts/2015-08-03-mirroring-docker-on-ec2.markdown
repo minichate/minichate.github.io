@@ -82,4 +82,4 @@ If you'd like to see how the docker mirror is behaving, you can check out the lo
 docker logs -f docker-mirror
 {% endhighlight %}
 
-Personally, I'm excited to see what comes out of `v2` of the docker registry project; we're already looking at running a completely internal registry backed by S3. Unfortunatly, the `registry:2` image currently doesn't support mirroring.
+Personally, I'm excited to see what comes out of `v2` of the docker registry project; we're already looking at running a completely internal registry backed by S3. Unfortunately, the `registry:2` image currently doesn't support mirroring.
