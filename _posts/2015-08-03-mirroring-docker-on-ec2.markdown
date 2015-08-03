@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mirroring Docker on EC2"
-date:   2015-08-02 15:07:00
+date:   2015-08-03 14:07:00
 categories: freshbooks docker
 ---
 
