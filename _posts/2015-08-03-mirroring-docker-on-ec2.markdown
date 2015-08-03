@@ -5,7 +5,7 @@ date:   2015-08-03 14:07:00
 categories: freshbooks docker
 ---
 
-I mentioned in a [previous post]({% post_url 2015-08-01-how-freshbooks-scales-capybara %}) that we're looking at speeding up how long it takes for our build/test cycle takes. We have some more substantial improvements in the works, but found a quick win by simply mirroring our images that are hosted on Docker Hub. The mirror lives on the internal EC2 network.
+I mentioned in a [previous post]({% post_url 2015-08-01-how-freshbooks-scales-capybara %}) that we're looking at speeding up how long it takes for our build/test cycle. We have some more substantial improvements in the works, but found a quick win by simply mirroring our images that are hosted on Docker Hub. The mirror lives on the internal EC2 network.
 
 To create the mirror machine we started by freezing an AMI based on CoreOS that runs the `registry:latest` image from the Docker library. The machine is configured via a very simple `cloud-init` file:
 
