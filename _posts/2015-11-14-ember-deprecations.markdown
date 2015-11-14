@@ -11,7 +11,7 @@ For example, for years the suggested way of defining properties on Controllers w
 
 Hmph. You probably have MANY uses of `.property()` sprinkled throughout your codebase. How can you encourage developers to not use them anymore, and to refactor them as they run access them?
 
-I think the answer is to have robots to the encouragement:
+I think the answer is to have robots do the encouragement:
 
 ![lintreview](/images/ember-deprecations.png)
 
